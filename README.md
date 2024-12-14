@@ -13,9 +13,6 @@ To upgrade to a new release: `brew update && brew upgrade vcf-cli`
 
 To uninstall: `brew uninstall vcf-cli`
 
-Installing with Homebrew will automatically setup shell completion for
-`bash`, `zsh` and `fish`.
-
 ### Installing a Specific Version
 
 At the time of writing, Homebrew only officially supported installing the
