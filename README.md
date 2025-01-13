@@ -28,7 +28,22 @@ brew install vcf-cli@1.1.0
 brew unlink vcf-cli
 brew link --overwrite vcf-cli@1.1.0
 
-# To uninstall such an installation and activate the latest version again
+# To unlink older version and activate the latest version again
+brew unlink vcf-cli@1.1.0
+brew link --overwrite vcf-cli
+
+# To unlink latest version and activate the any older version again
+brew unlink vcf-cli
+brew link --overwrite vcf-cli@1.1.0
+```
+
+### Uninstalling a Specific Version
+
+```console
+# To uninstall an old version, when it is currently linked/active
 brew uninstall vcf-cli@1.1.0
 brew link vcf-cli
+
+# To uninstall an older version, when latest version is active
+brew uninstall vcf-cli@1.1.0
 ```
