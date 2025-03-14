@@ -4,11 +4,11 @@
 class VcfCli < Formula
   desc "VCF command-line tool"
   homepage "https://github.com/vmware/homebrew-vcfcli"
-  version "4.0.0"
+  version "5.0.0"
 
   checksums = {
-    "darwin-amd64" => "12aa4e0f4fa3764ab01a8a157d5d0ff476add8bafadde2ee6a74409eb3dd58e6",
-    "darwin-arm64" => "9048b8b3cdf5bef284476d3ef1754a7abd50c7efb3cddb946470d8bf5bc1de87",
+    "darwin-amd64" => "ed4d4c618dcb7caa6008caa4cb235c4c8950e6e00e006be1acfe796dcfaade09",
+    "darwin-arm64" => "5838aa5a23c771b7e0e0ddd6d241a8c1eada104806c2dc6d8d117ba3aab1125d",
   }
 
   $arch = "arm64"
