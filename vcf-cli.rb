@@ -7,8 +7,8 @@ class VcfCli < Formula
   version "9.0.0"
 
   checksums = {
-    "darwin-amd64" => "876d28117e814971e67381d5cd5734b9138ee26508829dd50fa37e326c207d71",
-    "darwin-arm64" => "f18eec4d4027654b655cd7b093e8fb90c94940f0fe5cf2798cb0f9743e147419",
+    "darwin-amd64" => "e0ba866ef9052fbbf19a326f2c70daabc63cd925392459783326eda19418aa07",
+    "darwin-arm64" => "50627b5d09b7397b0936fbb5c6c641058811ba47eadaa893b0bcdc34f1c63acc",
   }
 
   $arch = "arm64"
