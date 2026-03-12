@@ -12,7 +12,7 @@ class VcfCli < Formula
     "linux-amd64"  => "a4595fe7363b290fe206255b4c2d7728b95c27a1ed5606549063161c85627c47",
     "linux-arm64"  => "281aa1dd040c20ca0b3415810d4b0cda5d0b0ea1ee5fa2e0bf37d2709396576b",
   }
-  
+
   $arch = "arm64"
   on_intel do
     $arch = "amd64"
